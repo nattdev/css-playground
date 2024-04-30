@@ -1,0 +1,22 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url( "../backgrounds/bg-main.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+}
+
+.main-wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.item-wrapper {
+    display: flex;
+    justify-content: center;
+}

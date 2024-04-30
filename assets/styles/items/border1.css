@@ -1,0 +1,45 @@
+.main-wrapper-border-1 {
+    width: 130px;
+    height: 120px;
+    position: relative;
+    background-color: transparent;
+    display: flex;
+    overflow: hidden;
+    border-radius: 10%;
+}
+
+.animation-border-1 {
+    background-color: white;
+    width: calc(100% - 5px);
+    height: calc(100% - 5px);
+    margin: auto;
+    color: slategray;
+    position: relative;
+    z-index: 400;
+    box-sizing: border-box;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rotate-element-border-1 {
+    width: calc(100% + 130px);
+    height: 50%;
+    background-color: slateblue;
+    z-index: 200;
+    position: absolute;
+    left: -50px;
+    top: 50px;
+    animation: rotate-animation 7s linear infinite;
+    rotate: 25deg;
+}
+
+@keyframes rotate-animation {
+    0% {}
+
+    100% {
+        transform: rotate(360deg);
+        opacity: 0;
+    }
+}
